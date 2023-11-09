@@ -8,7 +8,7 @@ export default function Dune() {
 		<>
 			<main className="flex min-h-screen flex-col items-center p-24">
 				<div className="z-10 max-w-5xl w-full flex flex-col items-start text-sm font-mono lg:flex">
-					<div className="mb-4">Dashboards I've made:</div>
+					<div className="mb-4">Dashboards I&apos;ve made:</div>
 				</div>
 				<div className="mb-32 grid text-center lg:text-left">
 					<a
