@@ -79,7 +79,7 @@
 // }
 
 'use client';
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
@@ -93,20 +93,13 @@ export default function Carousel({ items }) {
   const handlePrevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? items.length - 1 : prev - 1));
   };
-
-	useEffect(() => {
-		const interval = setInterval(() => {
-			handleNextSlide();  // this will go to the next slide every 3 seconds
-		}, 12000);
-		return () => clearInterval(interval);  // this clears the interval when the component is unmounted
-	}, [handleNextSlide]);
 	
   return (
     <div className="relative w-9/12">
       <AiOutlineLeft onClick={handlePrevSlide} className="absolute left-[-50px] m-auto text-5xl inset-y-1/3 cursor-pointer text-gray-400 z-20" />
       <div className="w-full h-[50vh] flex overflow-hidden relative m-auto">
         <Swipe onSwipeLeft={handleNextSlide} onSwipeRight={handlePrevSlide} className="relative z-10 w-full h-full">
-          {items.map((item, index) => {
+          {items.map((_, index) => {
             if (index === currentSlide) {
               return (
                 <div key={index}>
@@ -119,7 +112,7 @@ export default function Carousel({ items }) {
       </div>
       <AiOutlineRight onClick={handleNextSlide} className="absolute right-[-50px] m-auto text-5xl inset-y-1/2 cursor-pointer text-gray-400 z-20" />
       <div className="relative flex justify-center p-2">
-        {items.map((item, index) => (
+        {items.map((_, index) => (
           <div
             className={index === currentSlide ? "h-4 w-4 bg-gray-300 rounded-full mx-2 mb-2 cursor-pointer" : "h-4 w-4 bg-gray-700 rounded-full mx-2 mb-2 cursor-pointer"}
             key={index}

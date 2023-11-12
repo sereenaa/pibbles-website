@@ -5,7 +5,7 @@ import Carousel from '../components/carousel';
 export default function Home() {
 
   const items = [
-    <div className="w-full">
+    <div key="Gammaswap" className="w-full">
       <a href="https://twitter.com/GammaSwapLabs" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
         <Image src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
         <h2 className="text-xl font-bold">Gammaswap</h2>
@@ -34,7 +34,7 @@ export default function Home() {
         </a>
       </div>
     </div>, 
-    <div>
+    <div key="Ocean Fund">
       <a href="https://twitter.com/OceanFundeth" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
         <Image src="/ocean-fund.jpeg" alt="Ocean Fund Logo" className="mr-2 rounded-lg" width="30" height="30"/>
         <h2 className="text-xl font-bold">Ocean Fund</h2>
@@ -63,7 +63,7 @@ export default function Home() {
         </a>
       </div>
     </div>, 
-    <div>
+    <div key="Convergence">
       <a href="https://twitter.com/Convergence_fi" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
         <Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
         <h2 className="text-xl font-bold">Convergence</h2>
@@ -92,7 +92,7 @@ export default function Home() {
         </a>
       </div>
     </div>, 
-    <div>
+    <div key="Artichoke">
       <a href="https://twitter.com/artichoke_fi" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
         <Image src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
         <h2 className="text-xl font-bold">Artichoke</h2>
