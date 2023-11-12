@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { Inter } from 'next/font/google'
 import '../app/globals.css'
+import FooterButtons from '../components/footerButtons';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -96,6 +97,7 @@ export default function Dune() {
 					</div>
 					
 				</div>
+				<FooterButtons/>
 			</main>
 		</>
 	)
