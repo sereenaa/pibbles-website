@@ -122,7 +122,7 @@ export default function Carousel({ items }) {
         {items.map((_, index) => (
           <div
             className={index === currentSlide ? "h-4 w-4 bg-gray-300 rounded-full mx-2 mb-2 cursor-pointer" : "h-4 w-4 bg-gray-700 rounded-full mx-2 mb-2 cursor-pointer"}
-            key={index}
+            key={index+'bubble'}
             onClick={() => setCurrentSlide(index)}
           />
         ))}

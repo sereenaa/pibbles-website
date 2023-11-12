@@ -3,15 +3,11 @@ import Link from 'next/link';
 import Carousel from '../components/carousel';
 
 export default function Home() {
-  const images = [
-    { src: '/gammaswap.jpeg', alt: 'Description 1' },
-    { src: '/convergence.jpeg', alt: 'Description 2' },
-  ];
 
   const items = [
     <div className="w-full">
       <a href="https://twitter.com/GammaSwapLabs" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-        <img src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
+        <Image src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
         <h2 className="text-xl font-bold">Gammaswap</h2>
       </a>
       <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -40,7 +36,7 @@ export default function Home() {
     </div>, 
     <div>
       <a href="https://twitter.com/OceanFundeth" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-        <img src="/ocean-fund.jpeg" alt="Ocean Fund Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+        <Image src="/ocean-fund.jpeg" alt="Ocean Fund Logo" className="mr-2 rounded-lg" width="30" height="30"/>
         <h2 className="text-xl font-bold">Ocean Fund</h2>
       </a>
       <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -69,7 +65,7 @@ export default function Home() {
     </div>, 
     <div>
       <a href="https://twitter.com/Convergence_fi" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-        <img src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+        <Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
         <h2 className="text-xl font-bold">Convergence</h2>
       </a>
       <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -98,7 +94,7 @@ export default function Home() {
     </div>, 
     <div>
       <a href="https://twitter.com/artichoke_fi" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-        <img src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+        <Image src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
         <h2 className="text-xl font-bold">Artichoke</h2>
       </a>
       <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -163,7 +159,7 @@ export default function Home() {
       <div className="mb-32 mt-16 gap-8 grid text-center lg:max-w-screen-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left z-10">
         <div>
           <a href="https://twitter.com/GammaSwapLabs" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-            <img src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
+            <Image src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
             <h2 className="text-xl font-bold">Gammaswap</h2>
           </a>
           <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -192,7 +188,7 @@ export default function Home() {
         </div>
         <div>
           <a href="https://twitter.com/OceanFundeth" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-            <img src="/ocean-fund.jpeg" alt="Ocean Fund Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+            <Image src="/ocean-fund.jpeg" alt="Ocean Fund Logo" className="mr-2 rounded-lg" width="30" height="30"/>
             <h2 className="text-xl font-bold">Ocean Fund</h2>
           </a>
           <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -221,7 +217,7 @@ export default function Home() {
         </div>
         <div>
           <a href="https://twitter.com/Convergence_fi" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-            <img src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+            <Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
             <h2 className="text-xl font-bold">Convergence</h2>
           </a>
           <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
@@ -250,7 +246,7 @@ export default function Home() {
         </div>
         <div>
           <a href="https://twitter.com/artichoke_fi" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
-            <img src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+            <Image src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
             <h2 className="text-xl font-bold">Artichoke</h2>
           </a>
           <div className="container bg-gray-300 rounded-md" style={{ position: 'relative', width: '100%', height: '400px' }}>
