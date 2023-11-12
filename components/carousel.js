@@ -79,7 +79,7 @@
 // }
 
 'use client';
-import { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
@@ -94,6 +94,13 @@ export default function Carousel({ items }) {
     setCurrentSlide((prev) => (prev === 0 ? items.length - 1 : prev - 1));
   };
 
+	useEffect(() => {
+		const interval = setInterval(() => {
+			handleNextSlide();  // this will go to the next slide every 3 seconds
+		}, 12000);
+		return () => clearInterval(interval);  // this clears the interval when the component is unmounted
+	}, []);
+	
   return (
     <div className="relative w-9/12">
       <AiOutlineLeft onClick={handlePrevSlide} className="absolute left-[-50px] m-auto text-5xl inset-y-1/3 cursor-pointer text-gray-400 z-20" />
