@@ -33,7 +33,7 @@ export default function Socials() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/x.png" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+						<Image src="/x.png" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
 						<h2 className={`text-2xl font-semibold`}>
 							Twitter
 						</h2>

@@ -33,7 +33,7 @@ export default function Dune() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+						<Image src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
 						<h2 className={`text-2xl font-semibold`}>
 							Artichoke
 						</h2>
@@ -44,7 +44,7 @@ export default function Dune() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+						<Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
 						<h2 className={`text-2xl font-semibold`}>
 							Convergence
 						</h2>
@@ -55,7 +55,7 @@ export default function Dune() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
+						<Image src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
 						<h2 className={`text-2xl font-semibold`}>
 							Gammaswap
 						</h2>
@@ -66,7 +66,7 @@ export default function Dune() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/modular.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+						<Image src="/modular.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
 						<h2 className={`text-2xl font-semibold`}>
 							Modular Wallet
 						</h2>
@@ -77,7 +77,7 @@ export default function Dune() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/ocean-fund.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+						<Image src="/ocean-fund.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
 						<h2 className={`text-2xl font-semibold`}>
 							Ocean Fund
 						</h2>
