@@ -29,7 +29,6 @@ export default function Dune() {
 				<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
 					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
 						<h2 className="text-2xl font-bold mb-2">Lending</h2>
-						<p className="mb-4">Description of lending projects</p>
 						<a
 							href="https://dune.com/0xpibs/artichoke"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -44,7 +43,6 @@ export default function Dune() {
 					</div>
 					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
 						<h2 className="text-2xl font-bold mb-2">LPDfi</h2>
-						<p className="mb-4">Description of LPDfi projects</p>
 						<a
 							href="https://dune.com/0xpibs/gammaswap"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -58,8 +56,7 @@ export default function Dune() {
 						</a>
 					</div>
 					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
-						<h2 className="text-2xl font-bold mb-2">Portfolio tracker</h2>
-						<p className="mb-4">Description of portfolio tracking projects</p>
+						<h2 className="text-2xl font-bold mb-2">Portfolio trackers</h2>
 						<a
 							href="https://dune.com/0xpibs/convergence"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -84,8 +81,7 @@ export default function Dune() {
 						</a>
 					</div>
 					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
-						<h2 className="text-2xl font-bold mb-2">Wallet</h2>
-						<p className="mb-4">Description of wallet projects</p>
+						<h2 className="text-2xl font-bold mb-2">Wallets</h2>
 						<a
 							href="https://dune.com/0xpibs/modular-wallet"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
