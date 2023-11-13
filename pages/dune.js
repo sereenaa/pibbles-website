@@ -95,6 +95,20 @@ export default function Dune() {
 							</h2>
 						</a>
 					</div>
+					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+						<h2 className="text-2xl font-bold mb-2">Yield Farming</h2>
+						<a
+							href="https://dune.com/officialmozaic/moz-xmoz-dashboard"
+							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image src="/mozaic.png" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-2xl font-semibold`}>
+								Mozaic
+							</h2>
+						</a>
+					</div>
 					
 				</div>
 				<FooterButtons/>
