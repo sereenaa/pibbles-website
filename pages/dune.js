@@ -29,6 +29,20 @@ export default function Dune() {
 				</div>
 				<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
 					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+						<h2 className="text-2xl font-bold mb-2">DEXs</h2>
+						<a
+							href="https://dune.com/0xpibs/saberdao"
+							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image src="/saber-dao.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-2xl font-semibold`}>
+								Saber DAO
+							</h2>
+						</a>
+					</div>
+					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
 						<h2 className="text-2xl font-bold mb-2">Lending</h2>
 						<a
 							href="https://dune.com/0xpibs/artichoke"

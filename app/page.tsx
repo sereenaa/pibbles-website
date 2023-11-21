@@ -157,7 +157,7 @@ export default function Home() {
 
       <Carousel items={items} />
       
-      <div className="mb-32 mt-16 gap-8 grid text-center lg:max-w-screen-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left z-10">
+      {/* <div className="mb-32 mt-16 gap-8 grid text-center lg:max-w-screen-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left z-10">
         <div>
           <a href="https://twitter.com/GammaSwapLabs" target="_blank" rel="noopener noreferrer" className="flex items-center mb-4">
             <Image src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
@@ -274,7 +274,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <br></br>
       
       <FooterButtons/>
