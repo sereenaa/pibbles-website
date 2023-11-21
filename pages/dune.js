@@ -28,8 +28,9 @@ export default function Dune() {
 					</p>
 				</div>
 				<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
-					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
-						<h2 className="text-2xl font-bold mb-2">DEXs</h2>
+					{/* <div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2"> */}
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
+						<h2 className={`text-2xl font-bold mb-2`}>DEXs</h2>
 						<a
 							href="https://dune.com/0xpibs/saberdao"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -42,7 +43,7 @@ export default function Dune() {
 							</h2>
 						</a>
 					</div>
-					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
 						<h2 className="text-2xl font-bold mb-2">Lending</h2>
 						<a
 							href="https://dune.com/0xpibs/artichoke"
@@ -56,7 +57,7 @@ export default function Dune() {
 							</h2>
 						</a>
 					</div>
-					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
 						<h2 className="text-2xl font-bold mb-2">LPDfi</h2>
 						<a
 							href="https://dune.com/0xpibs/gammaswap"
@@ -70,7 +71,7 @@ export default function Dune() {
 							</h2>
 						</a>
 					</div>
-					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
 						<h2 className="text-2xl font-bold mb-2">Portfolio trackers</h2>
 						<a
 							href="https://dune.com/0xpibs/convergence"
@@ -95,7 +96,7 @@ export default function Dune() {
 							</h2>
 						</a>
 					</div>
-					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
 						<h2 className="text-2xl font-bold mb-2">Wallets</h2>
 						<a
 							href="https://dune.com/0xpibs/modular-wallet"
@@ -109,7 +110,7 @@ export default function Dune() {
 							</h2>
 						</a>
 					</div>
-					<div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2">
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
 						<h2 className="text-2xl font-bold mb-2">Yield Farming</h2>
 						<a
 							href="https://dune.com/officialmozaic/moz-xmoz-dashboard"
