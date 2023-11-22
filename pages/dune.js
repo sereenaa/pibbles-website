@@ -37,8 +37,8 @@ export default function Dune() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<Image src="/saber-dao.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<Image src="/saber-dao.svg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-xl font`}>
 								Saber DAO
 							</h2>
 						</a>
@@ -52,7 +52,7 @@ export default function Dune() {
 							rel="noopener noreferrer"
 						>
 							<Image src="/artichoke.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<h2 className={`text-xl font`}>
 								Artichoke
 							</h2>
 						</a>
@@ -66,7 +66,7 @@ export default function Dune() {
 							rel="noopener noreferrer"
 						>
 							<Image src="/gammaswap.jpeg" alt="Gammaswap Logo" className="mr-2 rounded-md" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<h2 className={`text-xl font`}>
 								Gammaswap
 							</h2>
 						</a>
@@ -80,7 +80,7 @@ export default function Dune() {
 							rel="noopener noreferrer"
 						>
 							<Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<h2 className={`text-xl font`}>
 								Convergence
 							</h2>
 						</a>
@@ -91,7 +91,7 @@ export default function Dune() {
 							rel="noopener noreferrer"
 						>
 							<Image src="/ocean-fund.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<h2 className={`text-xl font`}>
 								Ocean Fund
 							</h2>
 						</a>
@@ -105,7 +105,7 @@ export default function Dune() {
 							rel="noopener noreferrer"
 						>
 							<Image src="/modular.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<h2 className={`text-xl font`}>
 								Modular Wallet
 							</h2>
 						</a>
@@ -119,7 +119,7 @@ export default function Dune() {
 							rel="noopener noreferrer"
 						>
 							<Image src="/mozaic.png" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-2xl font-semibold`}>
+							<h2 className={`text-xl font`}>
 								Mozaic
 							</h2>
 						</a>
