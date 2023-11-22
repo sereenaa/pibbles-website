@@ -114,7 +114,7 @@ export default function Carousel({ items }) {
       <div className="relative flex justify-center p-2">
         {items.map((_, index) => (
           <div
-            className={index === currentSlide ? "h-4 w-4 bg-gray-300 rounded-full mx-2 mb-2 cursor-pointer" : "h-4 w-4 bg-gray-700 rounded-full mx-2 mb-2 cursor-pointer"}
+            className={index === currentSlide ? "mt-5 h-4 w-4 bg-gray-300 rounded-full mx-2 mb-2 cursor-pointer" : "mt-5 h-4 w-4 bg-gray-700 rounded-full mx-2 mb-2 cursor-pointer"}
             key={index}
             onClick={() => setCurrentSlide(index)}
           />

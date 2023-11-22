@@ -30,7 +30,7 @@ export default function Socials() {
 				</div>
 				<div className="flex flex-col items-center">
 					<p className="font-mono">I also do private/custom analytics. Chuck me a DM or email and we can chat!</p>
-					<div className="animate-bounce mt-10"> {/* Animated bounce effect */}
+					<div className="animate-bounce mt-4"> {/* Animated bounce effect */}
 						<svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
 						</svg>
