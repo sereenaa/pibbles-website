@@ -30,7 +30,7 @@ export default function Dune() {
 				<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
 					{/* <div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2"> */}
 					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
-						<h2 className={`text-2xl font-bold mb-2`}>AMM</h2>
+						<h2 className={`text-2xl font-bold mb-2`}>AMMs</h2>
 						<a
 							href="https://dune.com/0xpibs/chainflip-dashboard"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
