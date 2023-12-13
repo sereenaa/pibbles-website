@@ -30,7 +30,29 @@ export default function Dune() {
 				<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
 					{/* <div className="p-6 mb-8 bg-black rounded-lg shadow-lg border border-gray-600 border-t-2"> */}
 					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
-						<h2 className={`text-2xl font-bold mb-2`}>DEXs</h2>
+						<h2 className={`text-2xl font-bold mb-2`}>DEX</h2>
+						<a
+							href="https://dune.com/0xpibs/chainflip-dashboard"
+							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image src="/chainflip.png" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-xl font`}>
+								Chainflip
+							</h2>
+						</a>
+						<a
+							href="https://dune.com/0xpibs/fluxbeam"
+							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image src="/fluxbeam.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-xl font`}>
+								FluxBeam
+							</h2>
+						</a>
 						<a
 							href="https://dune.com/0xpibs/saberdao"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -40,6 +62,20 @@ export default function Dune() {
 							<Image src="/saber-dao.svg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
 							<h2 className={`text-xl font`}>
 								Saber DAO
+							</h2>
+						</a>
+					</div>
+					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
+						<h2 className="text-2xl font-bold mb-2">Incubator</h2>
+						<a
+							href="https://dune.com/0xpibs/epoch-island"
+							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image src="/epochisland.jpeg" alt="Artichoke Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-xl font`}>
+								Epoch Island
 							</h2>
 						</a>
 					</div>
@@ -72,18 +108,7 @@ export default function Dune() {
 						</a>
 					</div>
 					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
-						<h2 className="text-2xl font-bold mb-2">Portfolio trackers</h2>
-						<a
-							href="https://dune.com/0xpibs/convergence"
-							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
-							<h2 className={`text-xl font`}>
-								Convergence
-							</h2>
-						</a>
+						<h2 className="text-2xl font-bold mb-2">Portfolio tracker</h2>
 						<a
 							href="https://dune.com/0xpibs/ocean-fund"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -97,7 +122,7 @@ export default function Dune() {
 						</a>
 					</div>
 					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
-						<h2 className="text-2xl font-bold mb-2">Wallets</h2>
+						<h2 className="text-2xl font-bold mb-2">Wallet</h2>
 						<a
 							href="https://dune.com/0xpibs/modular-wallet"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -111,7 +136,18 @@ export default function Dune() {
 						</a>
 					</div>
 					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
-						<h2 className="text-2xl font-bold mb-2">Yield Farming</h2>
+						<h2 className="text-2xl font-bold mb-2">Yield Optimiser</h2>
+						<a
+							href="https://dune.com/0xpibs/convergence"
+							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image src="/convergence.jpeg" alt="Convergence Logo" className="mr-2 rounded-lg" width="30" height="30"/>
+							<h2 className={`text-xl font`}>
+								Convergence
+							</h2>
+						</a>
 						<a
 							href="https://dune.com/officialmozaic/moz-xmoz-dashboard"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
