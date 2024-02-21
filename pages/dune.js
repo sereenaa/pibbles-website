@@ -110,7 +110,7 @@ export default function Dune() {
 					<div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-8">
 						<h2 className="text-2xl font-bold mb-2">Portfolio tracker</h2>
 						<a
-							href="https://dune.com/0xpibs/ocean-fund"
+							href="https://dune.com/oceanfund/ocean-fund"
 							className="flex items-center group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 							target="_blank"
 							rel="noopener noreferrer"
